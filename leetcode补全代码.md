@@ -17,14 +17,39 @@ c++
 java
 
 ```java
-// abstract boolean break byte case catch char class continue default do double else extends final finally float for if implements import instanceof int interface long native new package private protected public return short static strictfp super switch synchronized this throw throws transient try void volatile while
+// abstract boolean break byte case catch char class continue false default do double else extends final finally float for if implements import instanceof int interface long native new package private protected public return short static strictfp super switch synchronized this throw throws transient try void volatile while
 // Map HashMap get put getOrDefault(ch, 0) + 1) containsKey(key)
-// string length() .charAt(i) toCharArray()
-// char Character
+// 
+// 
+// char Character 
 // int Integer
-//普通数组[]int  length  Arrays.sort(array); Arrays.equals(array1, array2); 
-//列表list               Collections.sort(list);
+// Math.max
 
+//普通数组           
+/**
+[]int temp = new int[n] 
+for(:)
+length
+Arrays.sort(array);
+Arrays.equals(array1, array2);
+*/
+
+//string
+/**
+for(int i = 0; i < str.length())
+string length() .charAt(i) toCharArray()  substring(index1, index2)
+
+StringBuilder sb = new StringBuilder(""); deleteCharAt() append() toString()
+ */
+//List Set
+/**
+ * Set<Integer> temp = new HashSet<Integer>();
+ * for(:)
+ * HashSet add remove clear() contains(a) isEmpty() size() equals()
+ * Collections.sort(list);
+ * 
+ * ArrayList<Integer> tree1 = new ArrayList<>();
+ */
 
 ```
 
